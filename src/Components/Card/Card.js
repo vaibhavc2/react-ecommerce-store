@@ -47,7 +47,7 @@ const Card = props => {
                                           handleAddToCart={handleAddToCart} 
                                         />
                     }
-                ${game.price}
+                ₹{game.price}
             </div>
             <h2 className={styles.name}>{game.name}</h2>
             <button 
